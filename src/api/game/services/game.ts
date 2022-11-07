@@ -1,0 +1,5 @@
+/**
+ * game service
+ */
+
+export default () => ({});

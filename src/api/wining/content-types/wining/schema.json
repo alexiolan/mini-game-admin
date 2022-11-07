@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "winings",
+  "info": {
+    "singularName": "wining",
+    "pluralName": "winings",
+    "displayName": "Wining",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "reward": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::reward.reward"
+    },
+    "Email": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

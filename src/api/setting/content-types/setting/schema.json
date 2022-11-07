@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "settings",
+  "info": {
+    "singularName": "setting",
+    "pluralName": "settings",
+    "displayName": "Setting",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "SPEED_PER_MINUTE": {
+      "type": "integer"
+    },
+    "FINISH_SCORE": {
+      "type": "integer"
+    },
+    "giftSpawnTimeMin": {
+      "type": "decimal"
+    },
+    "giftSpawnTimeMax": {
+      "type": "decimal"
+    },
+    "bubbleSpawnTimeMin": {
+      "type": "decimal"
+    },
+    "bubbleSpawnTimeMax": {
+      "type": "decimal"
+    }
+  }
+}
