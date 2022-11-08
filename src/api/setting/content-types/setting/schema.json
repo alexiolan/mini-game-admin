@@ -38,6 +38,9 @@
     },
     "playerSize": {
       "type": "integer"
+    },
+    "bubbleSpeed": {
+      "type": "decimal"
     }
   }
 }
