@@ -29,6 +29,15 @@
     },
     "bubbleSpawnTimeMax": {
       "type": "decimal"
+    },
+    "giftSize": {
+      "type": "integer"
+    },
+    "bubbleSize": {
+      "type": "integer"
+    },
+    "playerSize": {
+      "type": "integer"
     }
   }
 }
